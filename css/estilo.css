@@ -1,0 +1,87 @@
+/*sintaxe do css*/
+/*elemento {propriedade:valor}*/
+
+/*reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #FFF8E7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: #D62828;
+    display: inline;
+    color: beige
+}
+
+
+img {
+    border-radius: 50%;
+}
+
+h2 {
+    background-color: #F77F00;
+}
+
+header {
+    background-color: beige;
+    width: 100%;
+    height: 218px;
+    margin-bottom: 10%;
+}
+
+main {
+    background-color: aliceblue;
+    /*width: altera a largura do elemento*/
+    width: 70%;
+    height: 50vh;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+
+nav {
+    background-color: #FCBF49;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    /*text-align: alinhamento do texto*/
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    display: inline;
+
+}
+
+#topo {
+    width: 90%;
+    background-color: #D62828;
+    text-align: center;
+    margin: 0 auto;
+    height: 200px;
+    border-radius: 20px;
+}
+
+footer {
+    width: 50%;
+    background-color: #FCBF49;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
