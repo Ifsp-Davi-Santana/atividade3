@@ -16,11 +16,15 @@ body {
 }
 
 h1 {
-    background-color: #D62828;
+    background-color: #f0842b;
     display: inline;
-    color: beige
+    color: beige;
+    font-family: "comic neue";
 }
 
+h2 {
+    border-radius: 10px;
+}
 
 img {
     border-radius: 50%;
@@ -44,6 +48,7 @@ main {
     height: 50vh;
     margin: 0 auto;
     border-radius: 15px;
+    margin-bottom: 10%;
 }
 
 
@@ -65,12 +70,11 @@ a {
 
 li {
     display: inline;
-
 }
 
 #topo {
     width: 90%;
-    background-color: #D62828;
+    background-color: #f0842b;
     text-align: center;
     margin: 0 auto;
     height: 200px;
@@ -84,4 +88,62 @@ footer {
     text-align: center;
     border-radius: 25px;
     margin-bottom: 20px;
+}
+
+#prato_dia table {
+    /* background-image: url(../imagens/fundos.jpg); 
+    background-repeat:no-repeat; 
+    background-size:cover; */
+    background-color: #FCBF49;
+    width: 100%;
+}
+body{
+    font-family: "comic neue";
+}
+p{
+    /* border-style: solid; */
+    /* width: 300px;
+    height: 100px; */
+    padding: 5px 10px;
+    
+}
+
+#menu_delicioso li{
+    display: block;
+    padding: 5px 10px;
+}
+
+
+nav{
+    margin-top: 20px;
+    height: 50px;
+    padding-top: 15px;
+}
+
+nav ol li{
+    /* border-style: solid;  */
+    padding: 5px;
+}
+
+nav a{
+    font-size: 18px;
+}
+
+nav li:hover{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom-style: solid;
+    background-color: #c29846;
+    border-bottom-color:#F77F00;
+}
+
+footer img:hover{
+    width: 60px;
+    height: 60px;
+}
+
+tbody{
+    background-color: #c29846; 
 }
